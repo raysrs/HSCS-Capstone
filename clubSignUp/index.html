@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #101d17;
+            background-image: url(avatar.JPG);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1,h2{
+            background-color: #101d17;
+            width: fit-content;
+            color: #c3a16a;
+            font-family: "Volta_Regular", serif; 
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tea club sign up</h1>
+    <h2>
+        <form method="get" action="https://raysrs.github.io/HSCS-Capstone/">
+	        <label for="name"> Name: </label>
+	        <input type="text" id="name" name="name" placeholder="Name">
+            <br>
+            <label for="grade">Grade:</label>
+            <select id="grade" name="grade">
+		        <option value=”sent data”>9th</option>
+                <option value=”sent data”>10th</option>
+                <option value=”sent data”>11th</option>
+                <option value=”sent data”>12th</option>
+            </select>
+            <br>
+	        <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX">
+            <br>
+            <label for="favTea">Favorite type of tea:</label>
+            <br>
+            <textarea id="favTea" name="favTea" placeholder="anecdotes encouraged" rows="3" cols="25"></textarea>
+            <br>
+            <input type="reset" value="clear">
+	        <input type="submit" value="submit">
+        </form>
+    </h2>
+
+</body>
+</html>
