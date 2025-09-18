@@ -1,3 +1,4 @@
+<!-- forked from Sara Ketcham -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,6 +17,7 @@
     <h1>
       Fortune Teller
     </h1>
+    <img src="eliCat.jpeg" width="250">
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <label for="namefield">Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
@@ -23,6 +25,26 @@
       <label for="questionfield">Question:</label>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
       <br>
+      <label for="favClr">Favorite color:</label>
+      <input type="color" id="favClr" name="favClr">
+      <br>
+      <label for="mood">Mood:</label>
+      <select id="mood" name="mood">
+		    <option value=”sent data”>lucky</option>
+        <option value=”sent data”>unlucky</option>
+        <option value=”sent data”>disgraceful</option>
+      </select>
+      <br>
+	    <label for="email"> Email: </label>
+      <input type="email" id="email" name="email" placeholder="Email">
+      <br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX">
+      <br>
+      <label for="favTea">Is a hotdog a sandwich? why or why not:</label>
+      <br>
+      <textarea id="favTea" name="favTea" placeholder="anecdotes encouraged" rows="3" cols="25"></textarea>
+
       <input type="submit">
     </form>
     <div id="fortune"></div>
