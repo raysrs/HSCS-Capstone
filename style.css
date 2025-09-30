@@ -31,9 +31,7 @@ input, select, textarea{
     font-weight: normal;
 }
 ::selection{
-    color: #101d17;
-    font-family: "Volta_Regular", serif; 
-    font-weight: normal;
+    background-color: #ff000062;
 }
 :root{
     --checkbox-disabled-background-color: #c3a16a;
