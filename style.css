@@ -1,7 +1,7 @@
 body{
     background-color: #101d17;
 }
-h1,h2{
+h1,h2,h3,h4{
     background-color: #101d17;
     width: fit-content;
     color: #c3a16a;
@@ -22,5 +22,19 @@ input, select, textarea{
     background-color: #c3a16a;
     border-color: #c3a16a;
     vertical-align: middle;
+    accent-color: #c3a16a;
 }
-        
+
+::placeholder{
+    color: #101d179c;
+    font-family: "Volta_Regular", serif; 
+    font-weight: normal;
+}
+::selection{
+    color: #101d17;
+    font-family: "Volta_Regular", serif; 
+    font-weight: normal;
+}
+:root{
+    --checkbox-disabled-background-color: #c3a16a;
+}
