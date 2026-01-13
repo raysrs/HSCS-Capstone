@@ -1,20 +1,37 @@
+*{
+    font-weight: normal;
+    font-family: "Volta_Regular", serif;
+    color: #c3a16a;
+    border-radius: 5px;
+}
+
+.title{
+    font-weight:bold;
+    margin-left:auto;
+    margin-right:auto;
+    width:max-content;
+    background-color: #101d17DD;
+    padding-inline: 2mm;
+}
+
 body{
     background-color: #101d17;
+    background-image:url(avatar.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-h1,h2{
-    background-color: #101d17;
+h2{
+    background-color: #101d17DD;
     width: fit-content;
-    color: #c3a16a;
     font-family: "Volta_Regular", serif; 
     font-weight: normal;
+    padding-inline: 2mm;
 }
 a:link,a:visited{
-    color: #c3a16a;
     font-family: "Volta_Regular", serif; 
     font-weight: normal;
-}
-a:hover,a:active{
-    color: #8c7248;
+}a:hover,a:active{
     font-family: "Volta_Regular", serif; 
     font-weight: normal;
 }
