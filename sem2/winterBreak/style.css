@@ -1,0 +1,25 @@
+*{
+    font:  serif, "Volta_Regular", normal;
+    color: #c3a16a;
+    border-radius: 5px;
+}
+body{
+    background: #101d17 url(background.JPG) no-repeat fixed;
+    background-size:cover;    
+}
+h1{
+    font-weight:bold;
+    margin:auto;
+    width:max-content;
+    background-color: #101d17DD;
+    padding-inline: 2mm;
+}
+h2{
+    font-weight: normal;
+    width: fit-content;
+    background-color: #101d17DD;
+    padding-inline: 2mm;
+}
+::selection{
+    background-color: #ff000062;
+}
