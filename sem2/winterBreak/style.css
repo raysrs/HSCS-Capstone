@@ -7,18 +7,36 @@ body{
     background: #101d17 url(background.JPG) no-repeat fixed;
     background-size:cover;    
 }
-h1{
+.header{
     font-weight:bold;
     margin:auto;
     width:max-content;
     background-color: #101d17DD;
     padding-inline: 2mm;
 }
-h2{
-    font-weight: normal;
+.main{
+    font-size: 110%;
     width: fit-content;
     background-color: #101d17DD;
     padding-inline: 2mm;
+}
+.photos{
+    
+}
+.footer{
+    background-color: #101d17DD;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    width:100%
+}
+#highsHeader{
+    font-size:normal;
+    color:#95c36a
+}
+#lowsHeader{
+    font-size:normal;
+    color:#c36a6a
 }
 ::selection{
     background-color: #ff000062;
