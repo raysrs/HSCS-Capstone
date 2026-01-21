@@ -4,8 +4,12 @@
     border-radius: 5px;
 }
 body{
-    background: #101d17 url(background.JPG) no-repeat fixed;
-    background-size:cover;    
+    background: #101d17 url(photos/background.JPG) no-repeat fixed;
+    background-size:cover;
+}
+img{
+    width:100%;
+    margin-bottom: 4mm;
 }
 .header{
     font-weight:bold;
@@ -16,19 +20,19 @@ body{
 }
 .main{
     font-size: 110%;
-    width: fit-content;
+    max-width: 11.6cm;
     background-color: #101d17DD;
     padding-inline: 2mm;
 }
 .photos{
-    
+    max-width: 12cm;
 }
 .footer{
     background-color: #101d17DD;
     position:fixed;
     bottom:0;
     text-align: center;
-    width:100%
+    width:100%;
 }
 #highsHeader{
     font-size:normal;
