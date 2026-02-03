@@ -1,0 +1,13 @@
+# CSS Text Formatting
+  - color `color:`
+    - see "css basics" for ways to define color
+  - font family `font-family:`
+    - can be individual font `font-family:Calibri`
+    - can be class of fonts `font-family:sans-serif`
+    - generally better to use font families than specific fonts (fonts must be on user computer to work)
+  - font size `font-size:24px`
+  - alignment `text-align:`
+    - "center", "right", "justify", etc.
+  - text "decorations" `text-decoration:`
+    - "underline", "line-through", etc.
+  - text "case" `text-transform:uppercase`
