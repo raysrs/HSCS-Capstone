@@ -9,23 +9,26 @@ body{
 }
 img{
     width:100%;
-    margin-bottom: 4mm;
+    margin:0;
 }
 .header{
-    font-weight:bold;
-    margin:auto;
-    width:max-content;
     background-color: #101d17DD;
-    padding-inline: 2mm;
+    font-weight:bold;
+    margin: auto;
+    padding:2px 10px;
+    width:max-content;
+    
 }
 .main{
-    font-size: 110%;
-    max-width: 11.6cm;
     background-color: #101d17DD;
-    padding-inline: 2mm;
+    font-size: 110%;
+    max-width: 450px;
+    padding:2px 10px;
 }
 .photos{
-    max-width: 12cm;
+    background-color: #101d17DD;
+    max-width: 470px;
+    margin: 10px 0;
 }
 .footer{
     background-color: #101d17DD;

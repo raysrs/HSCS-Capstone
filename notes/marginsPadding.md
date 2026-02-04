@@ -22,3 +22,8 @@
         padding: 0;
     }
     ```
+- margin creates space on outside of element
+- padding creates space on inside of element
+- margin & padding can be different for different sides (top, left, etc.)
+- setting margin to "auto" centers element
+
