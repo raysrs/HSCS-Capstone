@@ -7,7 +7,7 @@
   - lets us use `top:` and `left:` properties to move object from initial (static) position
   - `bottom:` and `right:` can also be used
 - absolute positioning:
-  - `positioning:absolute`
+  - `positionin:absolute`
   - relative to containing element (often body) rather than static position
   - almost as if object floating above page
 - there are other kinds of positioning
