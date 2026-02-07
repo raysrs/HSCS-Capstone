@@ -9,7 +9,6 @@ body{
 }
 #eyes{
     margin:24px;
-    background-color: tan;
 }
 .eye{
     background-color: white;
@@ -36,11 +35,19 @@ body{
     width: 24px;
     height: 24px;
     display: inline-block;
-    margin-left: 10px;
+    margin: 12px 0 0 10px;
 }
 #tongue{
     background-color: red;
     width: 120px;
     height: 84px;
+    margin: auto;
+    position: relative;
+    bottom: -64px
+}
+#divot{
+    background-color: black;
+    width: 8px;
+    height: 67px;
     margin: auto;
 }
